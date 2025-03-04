@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(cal-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: silver;
+  border-radius: 5px;
+  width: 262px;
+  margin: 30px;
+}
+
+.display {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.buttons-container {
+  width: 150px;
+  margin: 5px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.calc-keys {
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  font-weight: 500;
+  font-size: larger;
+}
